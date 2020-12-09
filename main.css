@@ -1,0 +1,123 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a:hover {
+  text-decoration: none;
+}
+#head-tools {
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  right: -32px;
+}
+#head-tools ul {
+  margin-bottom: 10px;
+}
+#head-tools ul a {
+  color: #777;
+}
+#head-tools ul a:hover {
+  color: skyblue;
+}
+#head-tools ul i {
+  margin-left: 5px;
+  margin-right: 20px;
+}
+#head-tools li .badge {
+  position: relative;
+  top: -10px;
+  right: -13px;
+  font-size: 14px;
+}
+#logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 10px;
+}
+#searchbox {
+  margin-top: -15px;
+}
+body {
+  background-color: #f5f5f5 !important;
+}
+#banner1 {
+  height: 7vh;
+  border-radius: 15px;
+}
+#banner2 {
+  width: 65vw;
+  height: 47vh;
+  border-radius: 15px;
+  margin: auto auto;
+  background: url(./images/8.jpg) no-repeat;
+  background-size: cover;
+}
+
+.banner3 {
+  /* height: 23vh; */
+  border-radius: 15px;
+}
+#four-d {
+  width: 100vw;
+  /* height: 40vh; */
+}
+.headersticky {
+  background-color: #f5f5f5;
+  /* position: sticky;
+    position: -webkit-sticky; */
+}
+.banner4 {
+  border-radius: 15px;
+  /* width: 17%;
+  height: 250px; */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+img {
+  border-radius: 15px;
+}
+.swiper-container {
+    height: 40vh;
+    width: 65vw;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#nav{
+  display: block;
+  margin-left: auto;
+}
+@media only screen and (max-width:767px){
+  #nav{
+    display: none ;
+    margin: 0px auto;
+  }
+  #nav a{
+    display: block;
+  }
+  #header-btn{
+    display: block !important;
+    background-color: #e6e6e6;
+    font-size: 20px;
+  }
+}
